@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Raval | Premium Portfolio</title>
+    <meta name="description" content="Harsh Raval - Professional Trader, Market Analyst, Investor, and Financial Learner.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Fixed Modern Gradient Background -->
+    <div class="fixed-gradient-bg">
+        
+        <!-- Animated glowing orbs -->
+        <div class="glowing-orb orb-1"></div>
+        <div class="glowing-orb orb-2"></div>
+        
+        <!-- Animated Financial Line -->
+        <svg class="animated-financial-line" viewBox="0 0 1000 200" preserveAspectRatio="none">
+            <path d="M0,100 C100,100 150,50 200,80 C250,110 300,30 400,60 C500,90 600,150 700,120 C800,90 850,10 900,40 C950,70 1000,100 1000,100" fill="none" stroke="rgba(37, 99, 235, 0.4)" stroke-width="2" />
+        </svg>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Page Loader -->
+    <div class="loader-wrapper">
+        <div class="loader-content">
+            <span class="loader-text">HR</span>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold gradient-text" href="#hero">HR.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="docs/resume.pdf" class="btn btn-premium ms-3" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-up" data-aos-duration="1000">
+                    <span class="badge premium-badge mb-3">Welcome to my portfolio</span>
+                    <h1 class="display-3 fw-bold mb-3">Hi, I'm <br><span class="gradient-text">Harsh Raval</span></h1>
+                    <h2 class="h3 mb-4 text-muted">I am a <span class="typed-text"></span><span class="cursor"></span></h2>
+                    <p class="lead mb-5 text-secondary">Analyzing markets, managing risks, and discovering opportunities in the financial world.</p>
+                    <div class="hero-buttons">
+                        <a href="docs/resume.pdf" class="btn btn-outline-premium btn-lg magnetic-btn me-3" target="_blank"><i class="fas fa-download me-2"></i> Download CV</a>
+                        <a href="#contact" class="btn btn-premium btn-lg magnetic-btn me-3">Contact Me <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="https://wa.me/919429148389?text=Hello+Harsh,+I+visited+your+portfolio+website+and+would+like+to+connect+with+you." class="btn btn-outline-success btn-lg magnetic-btn" target="_blank"><i class="fab fa-whatsapp me-2"></i> WhatsApp</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center position-relative" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="hero-profile-wrapper">
+                        <div class="hero-profile-container">
+                            <img src="img/profile.jpeg" alt="Harsh Raval Profile" class="hero-profile-pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 2 & 3. About & Personal Info -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">Discover</span>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-text glass-card p-4 p-lg-5">
+                        <h3 class="mb-4">Professional Trader & Analyst</h3>
+                        <p class="text-secondary">I am a passionate and dedicated financial professional focused on technical analysis, market research, and risk management. With a strong analytical mindset and disciplined approach, I strive to make informed decisions in the ever-changing financial markets.</p>
+                        <p class="text-secondary mb-0">My journey is driven by continuous learning and adaptability, allowing me to stay ahead of market trends and discover new opportunities for growth.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="personal-info-grid">
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-user text-primary"></i>
+                            <div>
+                                <small>Name</small>
+                                <strong>Harsh Raval</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-briefcase text-info"></i>
+                            <div>
+                                <small>Profession</small>
+                                <strong>Trader</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-calendar-alt text-success"></i>
+                            <div>
+                                <small>DOB</small>
+                                <strong>26 Dec 2007</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-phone-alt text-warning"></i>
+                            <div>
+                                <small>Phone</small>
+                                <strong>+91 9429148389</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-envelope text-danger"></i>
+                            <div>
+                                <small>Email</small>
+                                <strong>harshraval@gmail.com</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-map-marker-alt text-primary"></i>
+                            <div>
+                                <small>Location</small>
+                                <strong>Gujarat, India</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-language text-info"></i>
+                            <div>
+                                <small>Languages</small>
+                                <strong>Eng, Hin, Guj</strong>
+                            </div>
+                        </div>
+                        <div class="info-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                            <i class="fas fa-flag text-success"></i>
+                            <div>
+                                <small>Nationality</small>
+                                <strong>Indian</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Education Timeline -->
+    <section id="education" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">Academic</span>
+                <h2>Education <span class="gradient-text">Journey</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Completed</span>
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <div class="timeline-score gradient-text fw-bold h4">73%</div>
+                        <p class="text-secondary mt-2">Strong foundational education focusing on core subjects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Completed</span>
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <div class="timeline-score gradient-text fw-bold h4">70%</div>
+                        <p class="text-secondary mt-2">Specialized studies preparing for higher education.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>Graduation</h3>
+                        <div class="timeline-score gradient-text fw-bold h4">[Degree Name]</div>
+                        <p class="text-secondary mt-2">[University/College Name Placeholder]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 & 6. Skills and Strengths -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Skills -->
+                <div class="col-lg-6">
+                    <div class="section-title mb-5" data-aos="fade-right">
+                        <span class="subtitle">Expertise</span>
+                        <h2>Professional <span class="gradient-text">Skills</span></h2>
+                        <div class="underline align-left"></div>
+                    </div>
+                    
+                    <div class="skills-wrapper">
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-info"><span>Technical Analysis</span><span>95%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="95%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-info"><span>Risk Management</span><span>90%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-info"><span>Market Research</span><span>88%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="88%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-info"><span>Trading Psychology</span><span>92%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="92%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-info"><span>Financial Planning</span><span>85%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+                            <div class="skill-info"><span>Decision Making</span><span>94%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="94%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="700">
+                            <div class="skill-info"><span>Time Management</span><span>90%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="800">
+                            <div class="skill-info"><span>Communication</span><span>88%</span></div>
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="88%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strengths -->
+                <div class="col-lg-6">
+                    <div class="section-title mb-5" data-aos="fade-left">
+                        <span class="subtitle">Qualities</span>
+                        <h2>Core <span class="gradient-text">Strengths</span></h2>
+                        <div class="underline align-left"></div>
+                    </div>
+
+                    <div class="strengths-grid">
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="100" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-bolt text-warning mb-3 fs-3"></i><h4 class="h5 m-0">Quick Learner</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="200" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-sun text-warning mb-3 fs-3"></i><h4 class="h5 m-0">Positive Thinking</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="300" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-users text-primary mb-3 fs-3"></i><h4 class="h5 m-0">Leadership</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="400" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-puzzle-piece text-info mb-3 fs-3"></i><h4 class="h5 m-0">Problem Solving</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="500" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-brain text-info mb-3 fs-3"></i><h4 class="h5 m-0">Analytical Thinking</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="600" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-shield-alt text-success mb-3 fs-3"></i><h4 class="h5 m-0">Confidence</h4>
+                        </div>
+                        <div class="strength-card glass-card tilt-effect" data-aos="zoom-in" data-aos-delay="700" data-tilt data-tilt-scale="1.1">
+                            <i class="fas fa-crosshairs text-danger mb-3 fs-3"></i><h4 class="h5 m-0">Discipline</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7 & 8. Experience and Certifications -->
+    <section id="experience" class="section-padding bg-alt">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Experience -->
+                <div class="col-lg-6">
+                    <div class="section-title mb-5" data-aos="fade-up">
+                        <span class="subtitle">Career</span>
+                        <h2>Professional <span class="gradient-text">Experience</span></h2>
+                        <div class="underline align-left"></div>
+                    </div>
+                    
+                    <div class="timeline-container mini-timeline">
+                        <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="badge premium-badge mb-2">Current</span>
+                                <h3>Fresher</h3>
+                                <p class="text-secondary mt-2">Actively developing skills in technical analysis, risk management, and market research. Building a strong foundation for a career in finance.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Open to Opportunities</h3>
+                                <p class="text-secondary mt-2">Seeking challenging roles in trading and financial analysis where I can apply my analytical mindset and discipline to contribute to organizational success.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Continuous Learning</h3>
+                                <p class="text-secondary mt-2">Constantly studying market trends, reading financial literature, and practicing strategies to refine my decision-making process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="col-lg-6">
+                    <div class="section-title mb-5" data-aos="fade-up">
+                        <span class="subtitle">Achievements</span>
+                        <h2>Licenses & <span class="gradient-text">Certifications</span></h2>
+                        <div class="underline align-left"></div>
+                    </div>
+                    
+                    <div class="certifications-grid">
+                        <div class="cert-card glass-card tilt-effect" data-aos="fade-up" data-aos-delay="100" data-tilt data-tilt-scale="1.05">
+                            <div class="cert-icon"><i class="fas fa-chart-line text-warning"></i></div>
+                            <div class="cert-info">
+                                <h4>Trading Fundamentals</h4>
+                                <span class="text-secondary">NSE Academy / NISM</span>
+                            </div>
+                        </div>
+                        <div class="cert-card glass-card tilt-effect" data-aos="fade-up" data-aos-delay="200" data-tilt data-tilt-scale="1.05">
+                            <div class="cert-icon"><i class="fas fa-file-invoice-dollar text-primary"></i></div>
+                            <div class="cert-info">
+                                <h4>Financial Planning</h4>
+                                <span class="text-secondary">Certified Course</span>
+                            </div>
+                        </div>
+                        <div class="cert-card glass-card tilt-effect" data-aos="fade-up" data-aos-delay="300" data-tilt data-tilt-scale="1.05">
+                            <div class="cert-icon"><i class="fas fa-piggy-bank text-success"></i></div>
+                            <div class="cert-info">
+                                <h4>Investment Basics</h4>
+                                <span class="text-secondary">Financial Institute</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery & Statistics -->
+    <section id="gallery" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">Visuals</span>
+                <h2>Trading <span class="gradient-text">Gallery</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="row g-4 gallery-grid">
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=600" alt="Professional trader working on multiple monitors" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=600" alt="Bull and Bear stock market illustration" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1642543492481-44e81e391452?auto=format&fit=crop&q=80&w=600" alt="Financial trading dashboard" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&q=80&w=600" alt="Candlestick chart close-up" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Trading desk with laptop and charts" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=600" alt="Stock exchange digital display" class="img-fluid rounded-4 shadow-sm" loading="lazy">
+                        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body text-center p-0 position-relative">
+                        <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1050; background-color: rgba(0,0,0,0.5);"></button>
+                        <img src="" id="lightboxImage" class="img-fluid rounded-3" alt="Enlarged Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics" class="section-padding bg-alt">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-chart-bar fs-1 gradient-text mb-3"></i>
+                        <h3 class="display-4 fw-bold stat-number" data-target="95">0</h3>
+                        <p class="text-secondary mb-0">Technical Analysis</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-shield-alt fs-1 gradient-text mb-3"></i>
+                        <h3 class="display-4 fw-bold stat-number" data-target="90">0</h3>
+                        <p class="text-secondary mb-0">Risk Management</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-search-dollar fs-1 gradient-text mb-3"></i>
+                        <h3 class="display-4 fw-bold stat-number" data-target="88">0</h3>
+                        <p class="text-secondary mb-0">Market Research</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-book-reader fs-1 gradient-text mb-3"></i>
+                        <h3 class="display-4 fw-bold stat-number" data-target="100">0</h3>
+                        <span class="h3 fw-bold gradient-text">%</span>
+                        <p class="text-secondary mb-0">Continuous Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Hobbies -->
+    <section id="hobbies" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">Interests</span>
+                <h2>My <span class="gradient-text">Hobbies</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="hobbies-container">
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Trading</span>
+                </div>
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-book-open"></i>
+                    <span>Reading</span>
+                </div>
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-baseball-bat-ball"></i>
+                    <span>Cricket</span>
+                </div>
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>Fitness</span>
+                </div>
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fas fa-plane"></i>
+                    <span>Travelling</span>
+                </div>
+                <div class="hobby-bubble glass-card" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Technology</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Contact -->
+    <section id="contact" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">Get in Touch</span>
+                <h2>Contact <span class="gradient-text">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <a href="tel:+919429148389" class="contact-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <div class="contact-icon bg-gradient-primary">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>Call Me</h4>
+                        <p>+91 9429148389</p>
+                    </a>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <a href="mailto:harshraval@gmail.com" class="contact-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <div class="contact-icon bg-gradient-info">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Me</h4>
+                        <p>harshraval@gmail.com</p>
+                    </a>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://wa.me/919429148389?text=Hello+Harsh,+I+visited+your+portfolio+website+and+would+like+to+connect+with+you." target="_blank" class="contact-card glass-card tilt-effect" data-tilt data-tilt-scale="1.05">
+                        <div class="contact-icon bg-gradient-success">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4>WhatsApp Chat</h4>
+                        <p>Message Me</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="map-container glass-card" data-aos="fade-up" data-aos-delay="400">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.5038965030235!2d72.5312!3d23.0421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sGujarat%2C%20India!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-3">
+        <div class="container text-center">
+            <h3 class="fw-bold mb-4">Harsh <span class="gradient-text">Raval</span></h3>
+            <div class="social-links mb-4">
+                <a href="#" target="_blank" class="social-icon magnetic-btn"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="social-icon magnetic-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" class="social-icon magnetic-btn"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" class="social-icon magnetic-btn"><i class="fab fa-telegram"></i></a>
+            </div>
+            <hr class="footer-divider mb-4">
+            <p class="copyright text-secondary mb-0">
+                &copy; 2026 Harsh Raval | Professional Trader | All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
